@@ -30,3 +30,13 @@ describe('functional', () => {
     });
   });
 });
+
+const errors = [1, {}, []];
+
+describe('errors', () => {
+  errors.forEach((value) => {
+    it(`${value} should throw`, () => {
+      expect(() => countWords(value)).toThrowError('expects a string');
+    });
+  });
+});
