@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Isaiah Cruz",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.1.0",
     "prettier": "^2.0.2"
   }
 }
